@@ -15,4 +15,4 @@ steps:
   - --trigger-http
   - --runtime=python39
   - --allow-unauthenticated
-  - --extra-env-vars=PYTHONPATH=./.cloudfunctions
+  - --set-env-vars=PYTHONPATH=./.cloudfunctions
