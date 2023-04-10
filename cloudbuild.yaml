@@ -10,7 +10,7 @@ steps:
   args:
   - functions
   - deploy
-  - hello_world2
+  - fetch_data_option2_cf
   - --source=.
   - --trigger-http
   - --runtime=python39
